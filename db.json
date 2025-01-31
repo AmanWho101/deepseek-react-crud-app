@@ -1,0 +1,48 @@
+{
+  "users": [
+    {
+      "id": "8789",
+      "name": "aman6",
+      "email": "leg@gmail.com"
+    },
+    {
+      "id": "5b05",
+      "name": "aman2",
+      "email": "leg@gmail.com"
+    },
+    {
+      "id": "ab7f",
+      "name": "aman0",
+      "email": "leg@gmail.com"
+    }
+  ],
+  "films": [
+    {
+      "id": "330c",
+      "name": "Flight Risk",
+      "genres": "Action",
+      "rating": "8.14"
+    },
+    {
+      "id": "9768",
+      "name": "home alone",
+      "genres": "comedy, family",
+      "rating": "7"
+    },
+    {
+      "id": "f919",
+      "name": "American Sniper",
+      "genres": "Action",
+      "rating": "8"
+    }
+  ],
+  "store": [
+    {
+      "id": "f006",
+      "name": "printer",
+      "type": "hp",
+      "price": "10000",
+      "unit": "1"
+    }
+  ]
+}
