@@ -10,6 +10,9 @@ import EditFilm from './components/Film/EditFilm';
 import AddItem from './components/store/AddItem';
 import ItemList from './components/store/ItemList';
 import EditItem from './components/store/EditItem';
+import Student from './components/Student/Student';
+import AddStudent from './components/Student/AddStudent';
+import EditStudent from './components/Student/EditStudent';
 
 const App = () => {
   return (
@@ -27,8 +30,11 @@ const App = () => {
           {/* store  route */}
           <Route path='/store' element={<ItemList />} />
           <Route path='/addItem' element={<AddItem />} />
-          <Route path='/Edititem:id' element={<EditItem />} />
-
+          <Route path='/edititem/:id' element={<EditItem />} />
+    {/* student registration */}
+          <Route path='/student' element={<Student />} />
+          <Route path='/addStudent' element={<AddStudent />} />
+          <Route path='edit/stud/:id' element={<EditStudent />} />
         </Routes>
       </div>
     </Router>

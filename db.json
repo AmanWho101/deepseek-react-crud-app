@@ -38,11 +38,32 @@
   ],
   "store": [
     {
-      "id": "f006",
-      "name": "printer",
-      "type": "hp",
-      "price": "10000",
-      "unit": "1"
+      "name": "printer 56",
+      "type": "HP",
+      "price": "50000",
+      "unit": "1",
+      "id": 1
+    },
+    {
+      "name": "printer 56",
+      "type": "HP",
+      "price": "50000",
+      "unit": "1",
+      "id": 2
+    }
+  ],
+  "student": [
+    {
+      "f_name": "aman_",
+      "l_name": "lege",
+      "class": "9",
+      "id": 2
+    },
+    {
+      "f_name": "Zaman",
+      "l_name": "leges",
+      "class": "4",
+      "id": 3
     }
   ]
 }

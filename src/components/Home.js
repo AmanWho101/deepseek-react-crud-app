@@ -15,6 +15,9 @@ const Home = () =>{
             </li>
             <li>
                 <Link to={'/store'}> Store </Link>
+                <li>
+                <Link to={'/student'}> Student </Link>
+            </li>
             </li>
         </ul>
      </div>
