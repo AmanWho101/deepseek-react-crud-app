@@ -42,14 +42,14 @@
       "type": "HP",
       "price": "50000",
       "unit": "1",
-      "id": 1
+      "id": "1"
     },
     {
       "name": "printer 56",
       "type": "HP",
       "price": "50000",
       "unit": "1",
-      "id": 2
+      "id": "2"
     }
   ],
   "student": [
@@ -57,13 +57,27 @@
       "f_name": "aman_",
       "l_name": "lege",
       "class": "9",
-      "id": 2
+      "id": "2"
     },
     {
       "f_name": "Zaman",
       "l_name": "leges",
       "class": "4",
-      "id": 3
+      "id": "3"
+    }
+  ],
+  "teachers": [
+    {
+      "id": "afec",
+      "fname": "kebede",
+      "lname": "derese",
+      "fstudy": "Biology"
+    },
+    {
+      "id": "fafa",
+      "fname": "chala",
+      "lname": "chebude",
+      "fstudy": "Mathimatics"
     }
   ]
 }

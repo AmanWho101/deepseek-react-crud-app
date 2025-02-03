@@ -40,7 +40,7 @@ return (
                         <td>{stud.class}</td>
                         <td>
                             <Link to={`/edit/stud/${stud.id}`}>Edit</Link>
-                            <button type="submit"
+                            <button 
                             onClick={()=>hadledelete(stud.id)}
                             >Delete</button>
                         </td>
